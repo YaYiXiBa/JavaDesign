@@ -1,4 +1,4 @@
-package com.xp.javadesign.factory.abstruct.Color;
+package com.xp.javadesign.factory.abstractFac.Color;
 
 public class Yellow implements Color {
     @Override

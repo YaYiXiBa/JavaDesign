@@ -1,10 +1,10 @@
-package com.xp.javadesign.factory.abstruct.factory;
+package com.xp.javadesign.factory.abstractFac.factory;
 
-import com.xp.javadesign.factory.abstruct.Color.Color;
-import com.xp.javadesign.factory.abstruct.Product.PC;
-import com.xp.javadesign.factory.abstruct.Product.Phone;
-import com.xp.javadesign.factory.abstruct.Product.Product;
-import com.xp.javadesign.factory.abstruct.Product.Watch;
+import com.xp.javadesign.factory.abstractFac.Color.Color;
+import com.xp.javadesign.factory.abstractFac.Product.PC;
+import com.xp.javadesign.factory.abstractFac.Product.Phone;
+import com.xp.javadesign.factory.abstractFac.Product.Product;
+import com.xp.javadesign.factory.abstractFac.Product.Watch;
 
 public class ProductFactory extends Factory{
     @Override

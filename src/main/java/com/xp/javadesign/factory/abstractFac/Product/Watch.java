@@ -1,4 +1,4 @@
-package com.xp.javadesign.factory.abstruct.Product;
+package com.xp.javadesign.factory.abstractFac.Product;
 
 public class Watch implements Product{
     @Override
