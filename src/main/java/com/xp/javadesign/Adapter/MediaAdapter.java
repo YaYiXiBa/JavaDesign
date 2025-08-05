@@ -1,6 +1,6 @@
 package com.xp.javadesign.Adapter;
 
-public class MediaAdapter extends Mp4Player implements MediaPlayer {
+public class MediaAdapter implements MediaPlayer {
 
     private final AdvancedMediaPlayer advancedMediaPlayer;
 

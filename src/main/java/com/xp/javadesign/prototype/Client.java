@@ -12,5 +12,10 @@ public class Client {
 
         Shape clonedShape3 = (Shape) ShapeCache.getShape("3");
         System.out.println("Shape : " + clonedShape3.getType());
+
+        // 客户端可以这样使用
+        Shape circle1 = ShapeCache.getShape("1");
+        Shape circle2 = ShapeCache.getShape("1");
+        System.out.println(circle1 == circle2); // false
     }
 }
